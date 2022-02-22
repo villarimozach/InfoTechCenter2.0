@@ -37,5 +37,3 @@ def gasLevelAlert():
  # Call Functions Here
 gasLevelGauge()
 gasLevelAlert()
-gasLevelAlert()
-
