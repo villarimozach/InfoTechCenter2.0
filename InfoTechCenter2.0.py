@@ -6,9 +6,11 @@ from time import sleep #Print to one line with time delay between prints
 print("\033[1;34m Welcome To InfoTechCenter  \n")
 sleep(1)
 print("\033[1;34m Hornet's Operating System Booting Up  \n")
-
 #Gas Branch
 # Gas Level Function
+import random
+# Gas Level Function
+sleep(1)
 def gasLevelGauge():
     gasLevelList = ["Empty","Low","Quarter Tank","Haft Tank","Three Quarter Tank","Full Tank"]
     currentGasLevel = random.choice(gasLevelList)
@@ -16,7 +18,6 @@ def gasLevelGauge():
     return currentGasLevel
 # Variable calls the value of gasLevelGauge Function
 gasLevelIndicator = gasLevelGauge()
-
 # Create If-ELIF-ELSE statements using the comparative Operator == Equal to in order to display gas level messages to display gas level messages
 def gasLevelAlert():
     gasStations = ["Shell","BP","Citgo","Circle K","Mobil","Speedway","Marathon","Love's","Meijer","Costco","Sunoco"]
@@ -33,8 +34,8 @@ def gasLevelAlert():
         print("You are on a THREE QUARTER TANK of gas\nYou have 205 more miles to empty!!!")
     else:
         print("You have a FULL TANK of gas, Congratulations.\nYou have 310 more miles to empty!!!")
-
-
  # Call Functions Here
 gasLevelGauge()
 gasLevelAlert()
+gasLevelAlert()
+
